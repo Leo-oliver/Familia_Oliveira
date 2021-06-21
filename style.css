@@ -1,0 +1,199 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topo{width: 100%;}
+
+header.topo
+{
+    background-color: black;   
+    background-size: cover; /*size=tamanho, background-size: cover; = cobrir toda a tela*/   
+    padding: 20px 0 40px 0;
+}
+
+.brasao h3
+{
+    display: inline-block;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Pangolin', cursive;
+    color: white;    
+}
+
+.menu{display: flex; width: 100%;}
+
+.nome-familia{width: 50%;}
+
+.pessoas{width: 50%;}
+
+.pessoas a
+{
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;   
+    margin: 0 15px;    
+}
+
+.pessoas a:hover{border-bottom: 2px solid white;}
+
+section.apresentacao
+{
+    display: flex;
+    width: 100%;
+    background-image: url(image/family_site.PNG);
+    background-size: cover;      
+}
+
+.br{background-color: gray;}
+
+.apres-text h2
+{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+.apres-text h3
+{
+    font-size: 40px;
+    margin-left: 35%;
+}
+
+.bio-single
+{
+    display: flex;
+    background-color: #ccc;    
+    border: 2px solid gray;
+}
+
+.foto-pai, .foto-isa, .foto-pastor, .foto-thanos
+{   
+    display: flex;
+    border-radius: 50px;
+    margin-left: 50%;
+    border: 2px solid gray;
+    width: 33.3;
+}
+
+.pai
+{
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 50px; 
+    width: 33.3%;  
+}
+
+.mae
+{
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 50px; 
+    width: 33.3%;   
+}
+
+.foto-mae, .foto-leu, .foto-nina, .foto-dyna
+{
+    display: flex;
+    border-radius: 50px;
+    margin-left: 50%;
+    border: 2px solid gray;
+    width: 33.3;
+}
+
+.botao-inicio 
+{
+    display: flex;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgb(32, 3, 3);
+    text-decoration: none;
+    color: #FFDD33;
+    width: 100%;   
+} 
+
+.rodape
+{
+    background-color: gray;
+    width: 100%; 
+    height: 120px; 
+    text-align: center;
+}
+.redes_sociais{width: 100%;}
+
+.redes_sociais a
+{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.botao-fim-pag
+{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 17px;
+    background: #FFDD33;
+    text-decoration: none;
+    color: #0F3FD3;
+}
+
+@media screen and (max-width: 768px)
+{
+   .pessoas
+   {
+    display:inline-block;
+    padding-left: 20%;
+   }
+   header.topo
+   {
+       width: 100%;
+       height: 100%;
+       padding: 20px 0 40px 0;
+   }
+
+   .nome-familia h3
+        {
+            display:inline-block;
+            width: 100%;
+        }
+    section.apresentacao 
+    {
+        display: none;
+    }   
+
+    .bio-single
+    {
+        display: flex;
+    }
+
+    .foto-pai, .foto-isa, .foto-pastor, .foto-thanos
+    {
+        height: 300px;
+        width: 200px;
+
+    }
+    .pai, .mae
+    {
+        display: none;
+    }
+
+    .foto-mae, .foto-leu, .foto-nina, .foto-dyna
+    {
+        height: 300px;
+        width: 200px;
+    }    
+    
+}
+
+
+
+   
+
+
+
